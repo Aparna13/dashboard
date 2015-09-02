@@ -1,0 +1,127 @@
+.no-border {
+    border: 0;
+    box-shadow: none; 
+    background-color: transparent;
+}
+
+.btn-noborder {
+  border: 0;
+  box-shadow: none; 
+  background-color: transparent;
+  background-image:none;
+}
+
+.line {
+  font-size: 25px;
+  font-weight: 100;
+  margin-top: 8px;
+}
+
+.circle {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  /*background-color: red;*/
+  border: 1px solid white;
+  margin-top: 12px;
+  margin-left: 12px;
+  text-align: center; 
+  line-height: 25px; 
+}
+
+.navbar {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+.navbar-default {
+    background-image: none;
+    border:0;
+    box-shadow: none;
+    background-color: #0074c8;
+    border-radius: 0px;
+    color: white;
+}
+
+.nav>li>a {
+  text-shadow: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+.logo {
+  height: 95%;
+  margin-left: 12px;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background: red !important;
+  color: white;
+}
+
+.left {
+/*  margin-left: 10%;*/
+}
+
+.leftarr {
+  height: 35px;
+  margin-left: 45%;
+}
+
+.rightarr {
+  height: 35px;
+  float: right;
+  margin-right: 45%;
+}
+
+.box{
+  height:400px;
+  width:100%;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+/*  -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, .15);
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, .15)*/
+  box-shadow: .05px 2px 3px #D0D0D0 ;
+}
+
+.left-list {
+  list-style-type: none;
+  margin-left: 35%;
+  margin-top: 10%;
+  line-height: 200%;
+}
+
+.right-list {
+  list-style-type: none;
+  /*margin-left: 2%;*/
+  margin-top: 25%;
+  line-height: 1px;
+}
+
+.right-list li {
+  margin-left: 0;
+}
+
+.hr-line {
+  width: 50%;
+  margin-left: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.task-list {
+  text-align: left;
+}
+
+
+/*@media only screen and (max-device-width: 1024px){
+  .navbar {
+    width: 100%;
+    
+  }*/
+
+}
